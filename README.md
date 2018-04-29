@@ -15,3 +15,7 @@ A simple app to create and review hotel reservations. Built with Node.js, MongoD
 6. Run the client in a terminal (`npm start` from the `client` folder).
 7. Open `http://localhost:1234` in your browser.
 
+# Notes
+
+- Graphiql is enabled, so you can browse to `http://localhost:8080/api/graphql` to interact with the server.
+- The REST endpoints are at `http://localhost:8080/api/v1`, and can be used with something like [Insomnia](https://insomnia.rest/).
