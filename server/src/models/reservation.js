@@ -1,9 +1,9 @@
 export default function ReservationModel(mongoose) {
   const ReservationSchema = mongoose.Schema({
-    name: String,
-    hotelName: String,
-    arrivalDate: Date,
-    departureDate: Date,
+    name: { type: String, required: true },
+    hotelName: { type: String, required: true },
+    arrivalDate: { type: Date, required: true },
+    departureDate: { type: Date, required: true },
   });
 
   ReservationSchema.post('find', async result => {
