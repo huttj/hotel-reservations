@@ -1,0 +1,23 @@
+.create-reservation-form {
+  .error {
+    color: red;
+  }
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+    
+    input {
+      margin: 0 8px 0 0;
+    }
+    
+    @media screen and (max-width: 600px) {
+      display: block;
+      label {
+        display: block;
+        margin-bottom: 6px;
+      }
+    }
+  }
+}

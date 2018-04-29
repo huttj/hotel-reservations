@@ -1,0 +1,43 @@
+.filter-reservations {
+  margin-bottom: 12px;
+  h5 {
+    margin: 12px 0 12px;
+  }
+  input {
+    margin: 0 8px 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    display: block;
+    label {
+      display: block;
+      margin-bottom: 6px;
+    }
+  }
+}
+
+table {
+  width: 100%;
+
+  .left-header {
+    text-align: left;
+    padding-left: 4px;
+  }
+
+  .date-cell {
+    text-align: center;
+  }
+
+  .delete-cell {
+    text-align: center;
+    color: red;
+    cursor: pointer;
+  }
+
+  td {
+    padding: 4px 4px;
+  }
+  tr:nth-of-type(2n) {
+    background-color: #f0f0f0;
+  }
+}
